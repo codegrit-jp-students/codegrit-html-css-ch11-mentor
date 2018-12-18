@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+body, div, p, h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+* header
+*/
+.element0{
+  background-color: rgba(237, 214, 247, 1);
+  color: white;
+  height: 72px;/* 変更しない */
+  padding: 20px 10px 10px 50px;/* 変更しない */
+  box-sizing: border-box;
+}
+
+/*
+* main & sidebar (wrapper)
+*/
+.element1{
+  background-color: rgb(245, 245, 242);
+  padding: 30px 20px 10px 50px;/* 変更しない */
+  box-sizing: border-box;
+  p {
+    margin: 20px 0 20px 0;
+  }
+}
+
+.element2{
+  background-color: rgb(240, 234, 236);
+  color: white;
+  padding: 30px 30px 30px 50px;/* 変更しない */
+  box-sizing: border-box;
+  p {
+    margin: 20px 0 20px 0;
+  }
+}
+
+/*
+* footer
+*/
+.element3 {
+  background-color: rgba(177, 175, 179, 1);
+  color: white;
+  height: 150px;/* 変更しない */
+  text-align: center;
+  padding: 60px 10px 20px 10px;/* 変更しない */
+  box-sizing: border-box;
+}
+
+/*
+* media query
+*/
+@media (min-width: 320px) {
+  #wrapper {
+    display: block;
+  }
+}
+
+@media (min-width: 360px) {
+  #wrapper {
+    display: block;
+  }
+}
+
+@media (min-width: 375px) {
+  #wrapper {
+    display: block;
+  }
+}
+
+@media (min-width: 412px) {
+  #wrapper {
+    display: block;
+  }
+}
+
+@media (min-width: 414px) {
+  #wrapper {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  #wrapper {
+    display: flex;
+  }
+}
+
+@media (min-width: 1200px) {
+  #wrapper {
+    display: flex;
+  }
+}
